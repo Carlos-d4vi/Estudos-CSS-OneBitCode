@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rock{
+    width: 50px;
+    
+}
+.logo{
+    width: 200px;
+    
+}
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerbuttons{
+    display: flex;
+    padding-right: 25px;
+    gap: 15px;
+}
+.buttons{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buttons:hover {
+    border-color: #ff0044;
+    
+}
